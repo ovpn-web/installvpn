@@ -104,7 +104,7 @@ echo ""
 echo ""
 
 #echo ""
-    ##wget -q -O /usr/bin/pass https://github.com/xovpn/Auto-VPN/blob/master/PassKey.txt
+    ##wget -q -O /usr/bin/pass https://raw.githubusercontent.com/ovpn-web/installvpn/main/PassKey.txt
 #if ! grep -w -q $passwds /usr/bin/pass; then
 #clear
 #echo ""
@@ -217,7 +217,7 @@ echo ""
 
 echo ""
     read -p "กรุณาใส่รหัสผ่านเพื่อติดตั้ง: " passwds
-wget -q -O /usr/bin/pass https://github.com/xovpn/Auto-VPN/blob/master/PassKey.txt
+wget -q -O /usr/bin/pass https://raw.githubusercontent.com/ovpn-web/installvpn/main/PassKey.txt
 if ! grep -w -q $passwds /usr/bin/pass; then
 clear
 echo ""
